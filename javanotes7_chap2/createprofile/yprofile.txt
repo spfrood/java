@@ -1,0 +1,4 @@
+Name:             Bilbo
+Email:            baggins@shire.edu
+Favorite Color:   gold
+Yearly Income:$   925.44
