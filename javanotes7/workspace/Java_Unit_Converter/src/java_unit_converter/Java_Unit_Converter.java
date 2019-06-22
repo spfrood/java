@@ -89,6 +89,8 @@ public class Java_Unit_Converter {
 		System.out.printf("%12.5g", miles);
 		System.out.println(" miles");
                 System.out.println();
+            } else if (measurement < 0) {
+                System.out.println("Enter a positive measurement!");
             }
             
         } while (measurement != 0);  // end of do...while
