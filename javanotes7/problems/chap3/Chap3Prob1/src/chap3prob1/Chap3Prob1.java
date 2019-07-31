@@ -32,8 +32,8 @@ public class Chap3Prob1 {
         
         while ((die1 != 1) || (die2 != 1)) {
             System.out.println("Attempt number " + count + "    Die 1: " + die1 + "    Die 2: " + die2 + " was rolled.");
-            die1 = (int)(6*Math.random())+1;
-            die2 = (int)(6*Math.random())+1;
+            die1 = (int)(6*Math.random()+1);
+            die2 = (int)(6*Math.random()+1);
             count++;
         }
         
